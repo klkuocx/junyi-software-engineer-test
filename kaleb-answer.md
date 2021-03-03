@@ -3,7 +3,7 @@
 1. 字串反轉
 
 (A)
-```javascript=
+```javascript
 function reverseString(word) {
   const iterator = word[Symbol.iterator]()
   let theChar = iterator.next()
@@ -20,7 +20,7 @@ function reverseString(word) {
 ```
 
 (B)
-```javascript=
+```javascript
 function reverseWordInSentence(sentence) {
   const words = sentence.split(' ')
   const antiArr = []
@@ -37,7 +37,7 @@ function reverseWordInSentence(sentence) {
 ---
 
 2. 扣除 3 和 5 的倍數，但保留 3 和 5 的公倍數
-```javascript=
+```javascript
 function countCommonMultiple(num) {
   const arr = []
 
